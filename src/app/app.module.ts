@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ButtonLinkComponent } from './button-link/button-link.component';
+import { MButtonComponent } from './m-button/m-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ButtonLinkComponent,
+    MButtonComponent
   ],
   imports: [
     BrowserModule,
